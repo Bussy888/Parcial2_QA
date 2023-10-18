@@ -5,18 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f065cabe-f4e2-48c1-a0e3-5db7610dd05a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/config/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/FactoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/IRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestDELETE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestGET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestPOST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestPUT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/testSuites/CRUDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/testSuites/CRUDTokenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/testSuites/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/testSuites/TestBaseAuthBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/testSuites/TestBaseToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio4/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/controls/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/controls/Control.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/controls/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/factoryBrowser/Chrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/factoryBrowser/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/factoryBrowser/FactoryBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/factoryBrowser/Firefox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/factoryBrowser/IBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/WorkspacePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/session/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuite/LoginExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuite/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/chrome/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +47,14 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,12 +68,99 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/enchu/OneDrive/Escritorio/Programacion/QA/Parcial2_QA/src/test/resources&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\enchu\OneDrive\Escritorio\Programacion\QA\Parcial2_QA\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\enchu\OneDrive\Escritorio\Programacion\QA\Parcial2_QA\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Ejercicio1">
+    <configuration name="CRUDTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;api.testSuites.CRUDTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Ejercicio1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ejercicio1.Ejercicio1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginExample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;webUI.testSuite.LoginExample&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Ejercicio1" />
+        <item itemvalue="Gradle.CRUDTest" />
+        <item itemvalue="Gradle.LoginExample" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,6 +170,18 @@
       <option name="presentableId" value="Default" />
       <updated>1697585418836</updated>
     </task>
+    <task id="LOCAL-00001" summary="gradle">
+      <created>1697585711636</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697585711636</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="gradle" />
   </component>
 </project>

@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f065cabe-f4e2-48c1-a0e3-5db7610dd05a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio4/Ejercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pagesTodoIst/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pagesTodoIst/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pagesTodoIst/WorkspacePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pagesTodoLy/ProjectsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ejercicio1/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/Ejercicio1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ejercicio4/Ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ejercicio3/Ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUI/pagesTodoLy/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUI/pagesTodoLy/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/pages/WorkspacePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/testSuite/LoginExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuite/LoginExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/testSuite/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuite/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +49,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/enchu/OneDrive/Escritorio/Programacion/QA/Parcial2_QA/src/test/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/enchu/OneDrive/Escritorio/Programacion/QA/Parcial2_QA/src/test/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\enchu\OneDrive\Escritorio\Programacion\QA\Parcial2_QA\src\test\resources" />
@@ -55,7 +65,7 @@
       <recent name="C:\Users\enchu\OneDrive\Escritorio\Programacion\QA\Parcial2_QA\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Ejercicio1">
+  <component name="RunManager" selected="Gradle.Ejercicio4">
     <configuration name="CRUDTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -102,7 +112,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoginExample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Ejercicio2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -115,7 +125,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;webUI.testSuite.LoginExample&quot;" />
+            <option value="&quot;ejercicio4.Ejercicio2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Ejercicio3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ejercicio3.Ejercicio3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Ejercicio4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ejercicio4.Ejercicio4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -127,9 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Ejercicio4" />
+        <item itemvalue="Gradle.Ejercicio3" />
+        <item itemvalue="Gradle.Ejercicio2" />
         <item itemvalue="Gradle.Ejercicio1" />
         <item itemvalue="Gradle.CRUDTest" />
-        <item itemvalue="Gradle.LoginExample" />
       </list>
     </recent_temporary>
   </component>
@@ -156,12 +214,20 @@
       <option name="project" value="LOCAL" />
       <updated>1697667025001</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit 2">
+      <created>1697668189195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697668189195</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gradle" />
     <MESSAGE value="commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
+    <MESSAGE value="commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
   </component>
 </project>

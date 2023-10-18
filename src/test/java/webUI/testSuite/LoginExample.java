@@ -1,14 +1,5 @@
 package webUI.testSuite;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import webUI.pages.LoginPage;
-import webUI.pages.MainPage;
-import webUI.pages.WorkspacePage;
-import webUI.session.Session;
-
 public class LoginExample {
 /*
     MainPage mainPage = new MainPage();

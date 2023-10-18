@@ -1,4 +1,4 @@
-package webUI.pages;
+package webUI.pagesTodoLy;
 import org.openqa.selenium.By;
 import webUI.controls.Button;
 

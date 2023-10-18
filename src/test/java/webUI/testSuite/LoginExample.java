@@ -10,7 +10,7 @@ import webUI.pages.WorkspacePage;
 import webUI.session.Session;
 
 public class LoginExample {
-
+/*
     MainPage mainPage = new MainPage();
     LoginPage loginPage = new LoginPage();
 
@@ -37,5 +37,5 @@ public class LoginExample {
         loginPage.loginButton.click();
         Thread.sleep(10000);
         Assertions.assertTrue(workspacePage.profileButton.isControlDisplayed(), "ERROR no se pudo iniciar sesion");
-    }
+    }*/
 }

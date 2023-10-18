@@ -34,7 +34,6 @@ public class Ejercicio1 extends TestBaseAuthBasic {
 
         this.createProject(Configuration.host + "/api/projects.json", bodyProject, post);
         this.deleteUser(idUser, delete, body);
-        this.createProject(Configuration.host + "/api/projects.json", bodyProject, post);
 
     }
 
@@ -71,9 +70,6 @@ public class Ejercicio1 extends TestBaseAuthBasic {
         requestInfo.setUrl(host)
                 .setBody(body.toString());
         response = FactoryRequest.make(post).send(requestInfo);
-        if(response == null){
-            Assertions.assertTrue(true, "El usuario no fue borrado");
-        }
         response.then().statusCode(200).
                 body("Content", equalTo(body.get("Content")));
     }

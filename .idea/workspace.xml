@@ -5,38 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f065cabe-f4e2-48c1-a0e3-5db7610dd05a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/config/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/FactoryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/IRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestDELETE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestGET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestPOST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestPUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/testSuites/CRUDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/testSuites/CRUDTokenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/testSuites/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/testSuites/TestBaseAuthBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/testSuites/TestBaseToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/Ejercicio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicio4/Ejercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/controls/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/controls/Control.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/controls/TextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/factoryBrowser/Chrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/factoryBrowser/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/factoryBrowser/FactoryBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/factoryBrowser/Firefox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/factoryBrowser/IBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/WorkspacePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/session/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuite/LoginExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webUI/testSuite/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chrome/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ejercicio1/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ejercicio1/Ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webUI/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webUI/pages/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,11 +149,19 @@
       <option name="project" value="LOCAL" />
       <updated>1697585711636</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit 1">
+      <created>1697667025001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697667025001</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="gradle" />
+    <MESSAGE value="commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
   </component>
 </project>
